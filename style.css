@@ -1,0 +1,311 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wdth,wght@0,6..12,75..125,200..1000;1,6..12,75..125,200..1000&display=swap");
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul,
+li {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/*   Custom rules go here   */
+
+* {
+  box-sizing: border-box;
+}
+
+/*// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 200 to 1000
+// <width>: Use a value from 75 to 125
+
+/* .nunito-sans-newfont {
+  font-family: "Nunito Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "wdth" 75, "YTLC" 500;
+} */
+
+img {
+  display: block;
+}
+
+html,
+body {
+  min-height: 100%;
+  font-family: "Nunito Sans", sans-serif;
+}
+
+body {
+  background: #110a2c;
+}
+
+p {
+  padding: 5px;
+  text-align: left;
+  /* text-wrap: wrap; */
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: 600;
+  font-variation-settings: "wdth" 105;
+  text-align: center;
+  color: white;
+}
+
+h2 {
+  font-size: 1.5rem;
+  text-align: center;
+  margin: 20px;
+  color: #17d8d8;
+}
+
+h3 {
+  font-size: 1rem;
+  text-align: center;
+  margin: 20px;
+  color: rgb(203, 205, 207);
+}
+
+a:link {
+  text-decoration: none;
+  color: white;
+}
+
+a:visited {
+  text-decoration: none;
+  color: purple;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #17d8d8;
+}
+
+a:active {
+  text-decoration: none;
+  color: black;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 100px auto 100px;
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
+
+ul,
+ol {
+  list-style-type: none;
+  text-align: center;
+}
+
+.turkey_recipe {
+  grid-area: 1 / 2 / 3 / 3;
+  padding: 1rem;
+  color: white;
+}
+
+.turkeyimg {
+  height: 300px;
+  width: 300px;
+  margin: auto;
+}
+
+.lasagneimg {
+  height: 400px;
+  width: 300px;
+  margin: auto;
+}
+
+.burgerimg {
+  height: 400px;
+  width: 300px;
+  margin: auto;
+}
+
+.main-h1 {
+  grid-area: 1 / 2;
+  line-height: 112px;
+}
+
+.recipe-links {
+  grid-area: 2 / 2;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 50px;
+  padding-bottom: 1em;
+}
+
+.lasagne_recipe {
+  grid-area: 1 / 2 / 3 / 3;
+  color: white;
+}
+
+.recipe-links {
+  margin-top: 2rem;
+}
+
+.homepage-grid {
+  display: grid;
+  grid-template-columns: 100px auto 100px;
+  grid-template-rows: repeat(3, 1fr);
+}
+
+.directions,
+.description {
+  min-width: 300px;
+  max-width: 300px;
+  margin: auto;
+}
+
+.directions {
+  padding-bottom: 3rem;
+}
+
+table {
+  text-wrap: wrap;
+  max-width: 300px;
+  margin: auto;
+}
+
+tbody > tr > :nth-child(1) {
+  color: white;
+  text-align: end;
+}
+
+hr {
+  width: 20%;
+  color: #800080;
+}
+
+#mergedcell {
+  padding-top: 5px;
+  text-align: center;
+}
